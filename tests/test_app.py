@@ -1,5 +1,11 @@
+import sys, os
 import pytest
+
+# ensure repo root (where app.py is) is on sys.path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from app import app, bookings
+
 
 @pytest.fixture
 def client():
