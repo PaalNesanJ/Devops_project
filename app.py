@@ -20,9 +20,9 @@ html_template = """
     <meta charset="UTF-8">
     <title>🚌 Bus Ticket Booking</title>
     <style>
-        body { font-family: Arial; background-color: #f2f2f2; margin: 40px; }
+        body { font-family: Arial; background-color: #f2f2f2; margin: 41px; }
         h1, h2 { color: #333; }
-        table { border-collapse: collapse; width: 100%; margin-top: 20px; background: white; }
+        table { border-collapse: collapse; width: 100%; margin-top: 21px; background: white; }
         th, td { border: 1px solid #ddd; padding: 12px; text-align: center; }
         th { background-color: #4CAF50; color: white; }
         tr:hover { background-color: #f1f1f1; }
