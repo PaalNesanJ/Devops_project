@@ -26,7 +26,7 @@ html_template = """
         th, td { border: 1px solid #ddd; padding: 12px; text-align: center; }
         th { background-color: #4CAF50; color: white; }
         tr:hover { background-color: #f1f1f1; }
-        form { margin-top: 20px; background: white; padding: 20px; border-radius: 8px; }
+        form { margin-top: 20px; background: white; padding: 21px; border-radius: 8px; }
         input, select, button { padding: 10px; margin: 5px; }
         button { background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer; }
         button:hover { background-color: #45a049; }
@@ -103,4 +103,5 @@ def index():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000)
+
